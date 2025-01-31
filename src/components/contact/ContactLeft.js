@@ -16,8 +16,7 @@ const ContactLeft = () => {
           Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Let's build seamless, scalable, and innovative web solutions together. Contact me for collaboration!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+94 76 745 4067</span>
