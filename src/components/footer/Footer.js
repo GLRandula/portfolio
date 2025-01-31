@@ -8,8 +8,7 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-28" src={logo} alt="logo" />
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Let's build seamless, scalable, and innovative web solutions together. Contact me for collaboration!
         </p>
         <div className="flex gap-4">
           <a href="https://github.com/GLRandula" target="blank">
