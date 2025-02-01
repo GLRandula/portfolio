@@ -2,9 +2,10 @@ import React from 'react'
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
-const ProjectsCard = ({ title, des, src }) => {
+const ProjectsCard = ({ title, des, src, link }) => {
   return (
-    <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-[#1f2744] group hover:bg-[#00000028] transition-colors duration-300">
+    <div className="w-full p-8 rounded-lg shadow-shadowOne flex flex-col bg-[#1f2744] group hover:bg-[#325b8593] transition-colors duration-300">
+      <a href={link}>
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
@@ -12,7 +13,7 @@ const ProjectsCard = ({ title, des, src }) => {
           alt="src"
         />
       </div>
-      <div className="w-full mt-5 flex flex-col  gap-6">
+      <div className="w-full flex flex-col gap-6">
         <div>
           <div className="flex items-center justify-between">
             <h3 className="text-base uppercase text-designColor font-normal">
@@ -29,6 +30,7 @@ const ProjectsCard = ({ title, des, src }) => {
           </p>
         </div>
       </div>
+      </a>
     </div>
   );
 }
