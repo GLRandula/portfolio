@@ -12,33 +12,27 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2017 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl::mt-14 w-[900px] border-l-[8px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            subTitle="University of Kelaniya"
+            result="2021 - NOW"
+            des="Improved skills of programming, Data structures & algorithms, AI, databases, networking etc. Following the Data Science pathway enhancing problem-solving, analytical thinking, software development, and research skills for innovative tech solutions."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="GCE A/L Examination - Physical Science Stream"
+            subTitle="St. Aloysius’ College, Galle."
+            result="2017-2020"
+            des="Passed the GCE A/L Examination on Physical Science Stream with A pass and two B passes. Combined Mathematics: A, Physics: B, Chemistry: B with 1.5503 z-score."
           />
         </div>
       </div>
       {/* part Two */}
 
-      <div>
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
@@ -63,7 +57,7 @@ const Education = () => {
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
