@@ -12,14 +12,14 @@ const projectsData = [
   { title: "CRUD API - Backend", des: "Technologies Used: Laraval(PHP, Blade), MySQL", src: projectThree, link: "https://github.com/GLRandula/laravel_api" },
   { title: "Mental Health ChatBot - Group Project", des: "Technologies Used: Next.js, Tailwind, Django", src: projectOne, link: "https://github.com/GLRandula/mental-health-chatbot-frontend" },
   { title: "Parking System", des: "Technologies Used: C#, .NET, MySQL", src: projectTwo, link: "https://github.com/GLRandula/Smart_Parking_Management_Platform" },
-  { title: "CRUD API - Backend", des: "Technologies Used: Node.js, MongoDB", src: projectThree, link: "https://github.com/GLRandula/Rest_API-Node-Express-MongoDB" },
+  // { title: "CRUD API - Backend", des: "Technologies Used: Node.js, MongoDB", src: projectThree, link: "https://github.com/GLRandula/Rest_API-Node-Express-MongoDB" },
   { title: "REST API EC2", des: "Technologies Used: Node.js, MongoDB Host in AWS, CI/CD Pipeline using GitHub Actions", src: projectThree, link: "https://github.com/GLRandula/nodejs-rest-api-EC2" },
   { title: "REST API - Backend", des: "Technologies Used: Django, Fast API, sqllite", src: projectOne, link: "https://github.com/GLRandula/Django-REST-API" },
 ];
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 6; // Number of projects per page
+  const projectsPerPage = 9; // Number of projects per page
 
   const totalPages = Math.ceil(projectsData.length / projectsPerPage);
 
