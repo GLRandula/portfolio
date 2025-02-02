@@ -39,7 +39,7 @@ const Skills = () => {
           { title: "Cloud", link: "#" },
           { title: "Redis", link: "#" },
           { title: "Git", link: "#" },
-          { title: "UI Design", link: "#" },
+          { title: "UI/UX Design", link: "#" },
         ].map((skill, index) => (
           <SkillsInput key={index} title={skill.title} link={skill.link} />
         ))}
