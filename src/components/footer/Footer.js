@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
+import { Link } from "react-scroll";
+import { navLinksdata } from '../../constants';
 
 const Footer = () => {
   return (
@@ -29,6 +31,30 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-full">
+      <h3 className="text-xl uppercase text-designColor tracking-wider">
+          Quick Link
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+                {navLinksdata.map(({ _id, title, link }) => (
+                  <li
+                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                    key={_id}
+                  >
+                    <Link
+                      activeClass="active"
+                      to={link}
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      {title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              </div>
+      {/* <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
@@ -70,7 +96,7 @@ const Footer = () => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
