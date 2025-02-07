@@ -8,7 +8,11 @@ const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-40">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-28" src={logo} alt="logo" />
+        {/* <img className="w-28" src={logo} alt="logo" /> */}
+        <h2 className="text-2xl text-white font-extrabold uppercase hover:text-designColor cursor-pointer relative group overflow-hidden duration-300">
+        Lakith Randula
+        <span className='absolute left-0 bottom-0 w-[216px] h-[2px] bg-designColor -translate-x-[100%] group-hover:translate-x-0 duration-300'/>
+        </h2>
         <p className="text-base text-gray-400 tracking-wide">
         Let's build seamless, scalable, and innovative web solutions together. Contact me for collaboration!
         </p>
