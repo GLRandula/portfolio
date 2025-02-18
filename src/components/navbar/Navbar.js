@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* <img src={logo} alt="logo" width={80} /> */}
         <h2 className="text-2xl text-white font-extrabold uppercase hover:text-designColor cursor-pointer relative group overflow-hidden duration-300">
         Lakith Randula
-        <span className='absolute left-0 bottom-0 w-full h-[2px] bg-designColor -translate-x-[100%] group-hover:translate-x-0 duration-300'/>
+        <span className='absolute left-0 bottom-0 w-[230px] h-[2px] bg-designColor -translate-x-[100%] group-hover:translate-x-0 duration-300'/>
         </h2>
       </div>
       <div>

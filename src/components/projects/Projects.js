@@ -1,20 +1,28 @@
 import React, { useState } from "react";
 import Title from "../layouts/Title";
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import crud from "../../assets/images/projects/crud.jpg";
+import QuizCast from "../../assets/images/projects/QuizCast.png";
+import springboot from "../../assets/images/projects/springboot.jpg";
+import chatapp from "../../assets/images/projects/chatapp.png";
+import portfolio from "../../assets/images/projects/portfolio.png";
 import ProjectsCard from "./ProjectsCard";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const projectsData = [
-  { title: "SappierLanka Tours - Client Project", des: "Technologies Used: React.js", src: projectTwo, link: "https://github.com/GLRandula/SappierLanka_Tours" },
-  { title: "VIEWMO-FrontEnd (Research Platform)", des: "Technologies Used: Next.js, Node.js, FastAPI", src: projectOne, link: "https://github.com/Tharindu209-playground/intellihack-final-frontend" },
-  { title: "CRUD API - Backend", des: "Technologies Used: SpringBoot, MongoDB", src: projectTwo, link: "https://github.com/GLRandula/SpringBoot-MongoDB-CRUD-API" },
+  { title: "SappierLanka Tours - Client Project", des: "Technologies Used: React.js, Tailwind", src: projectTwo, link: "https://github.com/GLRandula/SappierLanka_Tours" },
+  { title: "Portfolio Website - Client Project", des: "Technologies Used: WordPress", src: portfolio, link: "https://pethumjeewantha.com" },
+  { title: "VIEWMO (Research Platform)", des: "Technologies Used: Next.js, Node.js, FastAPI, Langchain, Redis", src: projectOne, link: "https://github.com/Tharindu209-playground/intellihack-final-frontend" },
+  { title: "Quiz Cast", des: "Technologies Used: Next.js, Flowbite, Django, Fast API", src: QuizCast, link: "https://github.com/GLRandula/Django-REST-API" },
+  { title: "E-Commerce Platform", des: "Technologies Used: Next.js, Sanity, Stripe, Firebase", src: projectOne, link: "https://github.com/GLRandula/ecommerce-app" },
+  { title: "Mental Health ChatBot", des: "Group Project, Technologies Used: Next.js, Tailwind, Django, LLM, VectorDB", src: projectOne, link: "https://github.com/GLRandula/mental-health-chatbot-frontend" },
+  { title: "Social Media Authenticator", des: "Technologies Used: Next.js, TypeScript, Tailwind", src: projectOne, link: "https://github.com/GLRandula/social-media-authentication" },
+  { title: "REST API EC2", des: "Technologies Used: Node.js, MongoDB Host in AWS, CI/CD Pipeline using GitHub Actions", src: crud, link: "https://github.com/GLRandula/nodejs-rest-api-EC2" },
+  { title: "Realtime Chat App", des: "Technologies Used: Next.js-vite, Tailwind, Firebase.", src: chatapp, link: "https://github.com/GLRandula/chatapp" },
+  { title: "CRUD API - Backend", des: "Technologies Used: SpringBoot, MongoDB", src: springboot, link: "https://github.com/GLRandula/SpringBoot-MongoDB-CRUD-API" },
   { title: "To-Do App", des: "Technologies Used: TypeScript, MongoDB", src: projectThree, link: "https://github.com/GLRandula/TodoApp" },
-  { title: "CRUD API - Backend", des: "Technologies Used: Laraval(PHP, Blade), MySQL", src: projectThree, link: "https://github.com/GLRandula/laravel_api" },
-  { title: "Mental Health ChatBot - Group Project", des: "Technologies Used: Next.js, Tailwind, Django", src: projectOne, link: "https://github.com/GLRandula/mental-health-chatbot-frontend" },
-  { title: "Parking System", des: "Technologies Used: C#, .NET, MySQL", src: projectTwo, link: "https://github.com/GLRandula/Smart_Parking_Management_Platform" },
+  { title: "Smart Parking System", des: "Technologies Used: C#, .NET, MySQL", src: projectTwo, link: "https://github.com/GLRandula/Smart_Parking_Management_Platform" },
   // { title: "CRUD API - Backend", des: "Technologies Used: Node.js, MongoDB", src: projectThree, link: "https://github.com/GLRandula/Rest_API-Node-Express-MongoDB" },
-  { title: "REST API EC2", des: "Technologies Used: Node.js, MongoDB Host in AWS, CI/CD Pipeline using GitHub Actions", src: projectThree, link: "https://github.com/GLRandula/nodejs-rest-api-EC2" },
-  { title: "REST API - Backend", des: "Technologies Used: Django, Fast API, sqllite", src: projectOne, link: "https://github.com/GLRandula/Django-REST-API" },
 ];
 
 const Projects = () => {
