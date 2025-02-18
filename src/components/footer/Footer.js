@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+// import {logo} from "../../assets/index"
 import { Link } from "react-scroll";
 import { navLinksdata } from '../../constants';
 

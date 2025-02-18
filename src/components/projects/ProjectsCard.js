@@ -1,12 +1,12 @@
 import React from 'react'
 import { BsGithub } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
+// import { FaGlobe } from "react-icons/fa";
 
 const ProjectsCard = ({ title, des, src, link }) => {
   return (
-    <div className="w-full p-8 rounded-lg shadow-shadowOne flex flex-col bg-[#1f2744] group hover:bg-[#325b8593] transition-colors duration-300">
+    <div className="w-full h-full p-8 rounded-lg shadow-shadowOne flex flex-col bg-[#1f2744] group hover:bg-[#325b8593] transition-colors duration-300">
       <a href={link}>
-      <div className="w-full h-[80%] overflow-hidden rounded-lg">
+      <div className="w-full h-[280px] overflow-hidden rounded-lg">
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
           src={src}
