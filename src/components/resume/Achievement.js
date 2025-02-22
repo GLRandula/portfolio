@@ -56,7 +56,7 @@ const Achievement = () => {
           <ResumeCard
             title="Member - IEEE Student Branch"
             subTitle="University of Kelaniya - CS Chapter"
-            result="Year 24"
+            result="Year 23/24"
             des="Engaged in technical workshops, hackathons, and events, improving skills in teamwork, leadership, delegating, and organizing."
           />
           <ResumeCard

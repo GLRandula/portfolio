@@ -17,13 +17,13 @@ const Experience = () => {
         <div className="mt-6 lgl:mt-14 w-[800px] h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Full Stack Developer"
-            subTitle="SONULO (PVT) LTD - Technology Start Up"
+            subTitle="SONULO (PVT) LTD - Technology Start Up (Part Time)"
             result="2023 - NOW"
             des="Collaborating with developing innovative web solutions, with a team of developers and designers to deliver high-quality products."
           />
           <ResumeCard
             title="Web Developer"
-            subTitle="WebDevking - Wordpress Developers' Team"
+            subTitle="WebDevking - Wordpress Developers' Team (Part Time)"
             result="2022 - 2024"
             des="Collaborating with developing and designing wordpress websites with a team of developers and designers for clients"
           />

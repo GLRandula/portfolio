@@ -1,6 +1,7 @@
-import { FaTools, FaCodeBranch, FaNodeJs, FaReact, FaPhp, FaGitAlt, FaGithub, FaLaravel, FaJava, FaPython, FaDocker, FaAws, FaFigma } from "react-icons/fa";
+import { FaTools, FaCodeBranch, FaNodeJs, FaReact, FaPhp, FaGithub, FaLaravel, FaJava, FaPython, FaGitAlt, FaDocker, FaAws, FaFigma } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { SiNextdotjs, SiTypescript, SiExpress, SiDotnet, SiSpringboot, SiRedux, SiDjango, SiBootstrap, SiMongodb, SiPostgresql, SiVorondesign, SiMysql, SiTailwindcss, SiWordpress, SiHtml5, SiCss3, SiCsharp, SiC, SiFastapi, SiRedis, SiVisualstudiocode, SiIntellijidea, SiPycharm, SiJupyter, SiGooglecolab, SiPostman, SiXampp, SiCanva } from "react-icons/si";
+import { DiVisualstudio } from "react-icons/di";
+import { SiAnaconda, SiNextdotjs, SiTypescript, SiExpress, SiDotnet, SiSpringboot, SiRedux, SiDjango, SiBootstrap, SiMongodb, SiPostgresql, SiVorondesign, SiMysql, SiTailwindcss, SiWordpress, SiHtml5, SiCss3, SiCsharp, SiC, SiFastapi, SiRedis, SiVisualstudiocode, SiIntellijidea, SiPycharm, SiJupyter, SiGooglecolab, SiPostman, SiXampp, SiCanva } from "react-icons/si";
 import Title from "./Title";
 import SkillsInput from "./SkillsInput";
 
@@ -40,13 +41,14 @@ const techStack = [
 
 const tools = [
   { title: "VS Code", icon: <SiVisualstudiocode /> },
-  { title: "Visual Studio", icon: <SiDotnet /> },
+  { title: "Visual Studio", icon: <DiVisualstudio /> },
   { title: "Intellij", icon: <SiIntellijidea /> },
   { title: "PyCharm", icon: <SiPycharm /> },
   { title: "Jupyter Notebook", icon: <SiJupyter /> },
   { title: "Google Colab", icon: <SiGooglecolab /> },
   { title: "Github", icon: <FaGithub  /> },
   { title: "Postman", icon: <SiPostman /> },
+  { title: "Anaconda", icon: <SiAnaconda  /> },
   { title: "XAMPP", icon: <SiXampp /> },
   { title: "Figma", icon: <FaFigma /> },
   { title: "Canva", icon: <SiCanva /> },
