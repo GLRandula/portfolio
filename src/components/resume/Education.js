@@ -17,7 +17,7 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl::mt-14 w-[800px] h-full border-l-[8px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
+            title="BSc (Hons) in Computer Science"
             subTitle="University of Kelaniya"
             result="2021 - NOW"
             des="Improved skills of programming, Data structures & algorithms, AI, databases, networking etc. Following the Data Science pathway enhancing problem-solving, analytical thinking, software development, and research skills for innovative tech solutions."
