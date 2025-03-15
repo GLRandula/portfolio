@@ -24,6 +24,11 @@ const Features = () => {
           icon={<AiFillAppstore />}
         />
         <Card
+          title="UI/UX Design"
+          des="Enhancing user experience through intuitive, visually appealing designs."
+          icon={<SiAntdesign />}
+        />
+        <Card
           title="Database Management"
           des="Organizing, storing, and optimizing data for seamless access."
           icon={<SiProgress />}
@@ -32,11 +37,6 @@ const Features = () => {
           title="Version Control"
           des="Tracking and managing code changes efficiently with Git."
           icon={<FaMobile />}
-        />
-        <Card
-          title="UI/UX Design"
-          des="Enhancing user experience through intuitive, visually appealing designs."
-          icon={<SiAntdesign />}
         />
         <Card
           title="Web Hosting"

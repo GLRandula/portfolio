@@ -11,11 +11,11 @@ const Achievement = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2021 - Now</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Group Works</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - Now</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Working Experiences</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+          {/* <ResumeCard
             title="Champions - IntelliHack NextGen 2024"
             subTitle="AI Hackathon, organized by IEEE CS Chapter of UCSC"
             result="1st Place"
@@ -38,6 +38,18 @@ const Achievement = () => {
             subTitle="Organized by IEEE CS Chapter 2022"
             result="Final 10"
             des="Participated as a member of Team Codz1.0 with an inovative idea of AI Powered software solution for online education."
+          /> */}
+          <ResumeCard
+            title="Full Stack Developer"
+            subTitle="SONULO (PVT) LTD - Technology Start Up (Part Time)"
+            result="2023 - NOW"
+            des="Collaborating with developing innovative web solutions, with a team of developers and designers to deliver high-quality products."
+          />
+          <ResumeCard
+            title="Web Developer"
+            subTitle="WebDevking - Wordpress Developers' Team (Part Time)"
+            result="2022 - 2024"
+            des="Collaborating with developing and designing wordpress websites with a team of developers and designers for clients"
           />
         </div>
       </div>

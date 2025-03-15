@@ -12,6 +12,7 @@ const techStack = [
   { title: "Nodejs", icon: <FaNodeJs /> },
   { title: "Typescript", icon: <SiTypescript /> },
   { title: "Expressjs", icon: <SiExpress /> },
+  { title: "UI/UX", icon: <SiVorondesign  /> },
   { title: "PHP", icon: <FaPhp /> },
   { title: "ASP .NET", icon: <SiDotnet /> },
   { title: "Laravel", icon: <FaLaravel /> },
@@ -36,7 +37,6 @@ const techStack = [
   { title: "AWS", icon: <FaAws /> },
   { title: "Redis", icon: <SiRedis /> },
   { title: "Git", icon: <FaGitAlt /> },
-  { title: "UI/UX Design", icon: <SiVorondesign  /> },
 ];
 
 const tools = [
