@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
 import { testimonialOne,testimonialTwo, testimonialThree, testimonialFour, testimonialFive, quote } from "../../assets";
-// import { imageOne } from "../../assets/images/testmonial/imageOne.png";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
