@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea875d7e.css",
-    "main.js": "/static/js/main.f39c1f8f.js",
-    "static/media/contactImg.jpg": "/static/media/contactImg.7acae8356c84627b9152.jpg",
-    "static/media/bannerImage.png": "/static/media/bannerImage.01bd866b469fdcb76ddb.png",
-    "static/media/logo.png": "/static/media/logo.aa802371a186cac9d2a7.png",
-    "static/media/testimonialOne.png": "/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/projectThree.jpeg": "/static/media/projectThree.47442baa3158613330ab.jpeg",
-    "static/media/testimonialTwo.png": "/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/projectTwo.jpg": "/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
-    "index.html": "/index.html",
-    "main.ea875d7e.css.map": "/static/css/main.ea875d7e.css.map",
-    "main.f39c1f8f.js.map": "/static/js/main.f39c1f8f.js.map"
+    "main.css": "/portfolio/static/css/main.4bf3d503.css",
+    "main.js": "/portfolio/static/js/main.f1c82e5f.js",
+    "static/media/testimonialTwo.png": "/portfolio/static/media/testimonialTwo.dc9e768f27bdbefb8b5b.png",
+    "static/media/SappierLanka.png": "/portfolio/static/media/SappierLanka.c06417b8ddef73ca95d7.png",
+    "static/media/mentalchatbot.png": "/portfolio/static/media/mentalchatbot.ea094556adc4ae53483a.png",
+    "static/media/testimonialFour.png": "/portfolio/static/media/testimonialFour.ffd01d82d55af90bbdc1.png",
+    "static/media/testimonialThree.png": "/portfolio/static/media/testimonialThree.6440d80a4f94c4aa6f8c.png",
+    "static/media/testimonialOne.png": "/portfolio/static/media/testimonialOne.0395c971c7ecd6e7d683.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.293f44f7344f78b202a2.png",
+    "static/media/testimonialFive.png": "/portfolio/static/media/testimonialFive.08aa6671c151f9afa8de.png",
+    "static/media/ParkingSystem.png": "/portfolio/static/media/ParkingSystem.0e726871326ae9aaf781.png",
+    "static/media/QuizCast.png": "/portfolio/static/media/QuizCast.7cc0bdec49e4bbdb7a14.png",
+    "static/media/contactImg.png": "/portfolio/static/media/contactImg.c947263e16870f2efc7d.png",
+    "static/media/viewmo.png": "/portfolio/static/media/viewmo.f0d13f3b5cbe88950bb0.png",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.c0f3597be958b4e160f0.png",
+    "static/media/chatapp.png": "/portfolio/static/media/chatapp.2d66567731f1d9a404df.png",
+    "static/media/crud.jpg": "/portfolio/static/media/crud.7559002e889ca68fb3fb.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.aa802371a186cac9d2a7.png",
+    "static/media/bannerImage.png": "/portfolio/static/media/bannerImage.039273b9c2397e0d9ad1.png",
+    "static/media/projectThree.jpeg": "/portfolio/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/projectTwo.jpg": "/portfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.4bf3d503.css.map": "/portfolio/static/css/main.4bf3d503.css.map",
+    "main.f1c82e5f.js.map": "/portfolio/static/js/main.f1c82e5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea875d7e.css",
-    "static/js/main.f39c1f8f.js"
+    "static/css/main.4bf3d503.css",
+    "static/js/main.f1c82e5f.js"
   ]
 }
