@@ -12,7 +12,7 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Full Stack Developer.", "UI/UX Designer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -21,22 +21,22 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className=" text-lg font-normal">WELCOME TO MY CAREER</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
           <span className="text-designColor capitalize">Lakith Randula</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a Full Stack Developer.
-          {/* a <span>{text}</span> */}
-          {/* <Cursor
+          {/* a Full Stack Developer. */}
+          a <span>{text}</span>
+          <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#00f1ff"
-          /> */}
+          />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Expertise in frontend/backend development, UI/UX Design crafting seamless, scalable, and user-friendly web applications. Skilled in modern frameworks, databases, and APIs.
+        Expertise in <strong>frontend/backend development, UI/UX Design</strong> crafting seamless, scalable, and user-friendly web applications. Skilled in modern frameworks, databases, and APIs.
         </p>
       </div>
       {/* <div className="w-48">
