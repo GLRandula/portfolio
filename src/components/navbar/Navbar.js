@@ -48,11 +48,11 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
+                {/* <p className="text-sm text-gray-400 mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Earum soluta perspiciatis molestias enim cum repellat, magnam
                   exercitationem distinctio aliquid nam.
-                </p>
+                </p> */}
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
