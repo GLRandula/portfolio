@@ -1,20 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 pl-14 pr-14">
       <div>
         {/* <img src={logo} alt="logo" width={80} /> */}
         <h2 className="text-2xl text-white font-extrabold uppercase hover:text-designColor cursor-pointer relative group overflow-hidden duration-300">
-        Lakith Randula
-        <span className='absolute left-0 bottom-0 w-[230px] h-[2px] bg-designColor -translate-x-[100%] group-hover:translate-x-0 duration-300'/>
+          Lakith Randula
+          <span className="absolute left-0 bottom-0 w-[230px] h-[2px] bg-designColor -translate-x-[100%] group-hover:translate-x-0 duration-300" />
         </h2>
       </div>
       <div>
@@ -79,15 +79,24 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a href="https://github.com/GLRandula" target="blank">
+                    <span className="bannerIcon">
+                      <FaGithub />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/share/12GDeYoggM4/"
+                    target="blank"
+                  >
+                    <span className="bannerIcon">
+                      <FaFacebookF />
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/glrandula" target="blank">
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
@@ -102,6 +111,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

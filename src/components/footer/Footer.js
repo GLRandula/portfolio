@@ -28,7 +28,7 @@ const Footer = () => {
               <FaFacebookF />
             </span>
           </a>
-          <a href="www.linkedin.com/in/glrandula" target="blank">
+          <a href="https://www.linkedin.com/in/glrandula" target="blank">
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
