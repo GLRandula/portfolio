@@ -36,7 +36,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Expertise in <strong>frontend/backend development, UI/UX Design</strong> crafting seamless, scalable, and user-friendly web applications. Skilled in modern frameworks, databases, and APIs.
+        Expertise in <strong>frontend/backend development, database management & UI/UX Design</strong> crafting seamless, scalable, and user-friendly web applications. Skilled in modern frameworks, databases, and APIs.
         </p>
       </div>
       {/* <div className="w-48">
