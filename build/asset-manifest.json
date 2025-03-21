@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b6d8bcd6.css",
+    "main.js": "/static/js/main.f2f26190.js",
+    "static/media/testimonialTwo.png": "/static/media/testimonialTwo.dc9e768f27bdbefb8b5b.png",
+    "static/media/SappierLanka.png": "/static/media/SappierLanka.c06417b8ddef73ca95d7.png",
+    "static/media/finliApp.png": "/static/media/finliApp.e46791c14144c9894285.png",
+    "static/media/mentalchatbot.png": "/static/media/mentalchatbot.ea094556adc4ae53483a.png",
+    "static/media/testimonialFour.png": "/static/media/testimonialFour.ffd01d82d55af90bbdc1.png",
+    "static/media/testimonialThree.png": "/static/media/testimonialThree.6440d80a4f94c4aa6f8c.png",
+    "static/media/testimonialOne.png": "/static/media/testimonialOne.0395c971c7ecd6e7d683.png",
+    "static/media/testimonialFive.png": "/static/media/testimonialFive.08aa6671c151f9afa8de.png",
+    "static/media/ParkingSystem.png": "/static/media/ParkingSystem.0e726871326ae9aaf781.png",
+    "static/media/news.png": "/static/media/news.36adefcf315f8b3458ac.png",
+    "static/media/QuizCast.png": "/static/media/QuizCast.7cc0bdec49e4bbdb7a14.png",
+    "static/media/logo.png": "/static/media/logo.22c2d6f3802648609607.png",
+    "static/media/contactImg.png": "/static/media/contactImg.c947263e16870f2efc7d.png",
+    "static/media/viewmo.png": "/static/media/viewmo.f0d13f3b5cbe88950bb0.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.c0f3597be958b4e160f0.png",
+    "static/media/portfolio.png": "/static/media/portfolio.04cdcc2e023c94cdb578.png",
+    "static/media/chatapp.png": "/static/media/chatapp.2d66567731f1d9a404df.png",
+    "static/media/crud.jpg": "/static/media/crud.7559002e889ca68fb3fb.jpg",
+    "static/media/bannerImage.png": "/static/media/bannerImage.039273b9c2397e0d9ad1.png",
+    "static/media/projectThree.jpeg": "/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/projectTwo.jpg": "/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/index.html",
+    "main.b6d8bcd6.css.map": "/static/css/main.b6d8bcd6.css.map",
+    "main.f2f26190.js.map": "/static/js/main.f2f26190.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6d8bcd6.css",
+    "static/js/main.f2f26190.js"
+  ]
+}
