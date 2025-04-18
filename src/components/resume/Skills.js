@@ -1,7 +1,7 @@
 import { FaTools, FaCodeBranch, FaNodeJs, FaReact, FaPhp, FaGithub, FaLaravel, FaJava, FaPython, FaGitAlt, FaDocker, FaAws, FaFigma } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { DiVisualstudio } from "react-icons/di";
-import { SiAnaconda, SiNextdotjs, SiTypescript, SiExpress, SiDotnet, SiSpringboot, SiRedux, SiDjango, SiBootstrap, SiMongodb, SiPostgresql, SiVorondesign, SiMysql, SiTailwindcss, SiWordpress, SiHtml5, SiCss3, SiCsharp, SiC, SiFastapi, SiRedis, SiVisualstudiocode, SiIntellijidea, SiPycharm, SiJupyter, SiGooglecolab, SiPostman, SiXampp, SiCanva } from "react-icons/si";
+import { SiAnaconda, SiNextdotjs, SiTypescript, SiExpress, SiDotnet, SiSpringboot, SiRedux, SiDjango, SiBootstrap, SiComposer, SiMongodb, SiPostgresql, SiVorondesign, SiMysql, SiTailwindcss, SiWordpress, SiHtml5, SiCss3, SiCsharp, SiC, SiFastapi, SiRedis, SiVisualstudiocode, SiIntellijidea, SiPycharm, SiJupyter, SiGooglecolab, SiPostman, SiXampp, SiCanva } from "react-icons/si";
 import Title from "./Title";
 import SkillsInput from "./SkillsInput";
 
@@ -33,9 +33,9 @@ const techStack = [
   { title: "C", icon: <SiC /> },
   { title: "Bootstrap", icon: <SiBootstrap /> },
   { title: "FastAPI", icon: <SiFastapi /> },
-  { title: "Docker", icon: <FaDocker /> },
+  // { title: "Docker", icon: <FaDocker /> },
   { title: "AWS", icon: <FaAws /> },
-  { title: "Redis", icon: <SiRedis /> },
+  // { title: "Redis", icon: <SiRedis /> },
   { title: "Git", icon: <FaGitAlt /> },
 ];
 
@@ -51,6 +51,7 @@ const tools = [
   { title: "Anaconda", icon: <SiAnaconda  /> },
   { title: "XAMPP", icon: <SiXampp /> },
   { title: "Figma", icon: <FaFigma /> },
+  { title: "Composer", icon: <SiComposer /> },
   { title: "Canva", icon: <SiCanva /> },
 ];
 
