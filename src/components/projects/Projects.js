@@ -12,6 +12,7 @@ import parking from "../../assets/images/projects/ParkingSystem.png";
 import viewmo from "../../assets/images/projects/viewmo.png";
 import finli from "../../assets/images/projects/finliApp.png";
 import news from "../../assets/images/projects/news.png";
+import deepseek from "../../assets/images/projects/deepseek-clone.png";
 import mentalChatbot from "../../assets/images/projects/mentalchatbot.png";
 import ProjectsCard from "./ProjectsCard";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
@@ -23,9 +24,10 @@ const projectsData = [
   { title: "E-Commerce Platform", des: "Technologies Used: Next.js, Sanity, Stripe, Firebase", src: ecommerce, link: "https://github.com/GLRandula/ecommerce-app" },
   { title: "Mental Health ChatBot", des: "Group Project, Technologies Used: Next.js, Tailwind, Django, LLM, VectorDB", src: mentalChatbot, link: "https://github.com/GLRandula/mental-health-chatbot-frontend" },
   { title: "Smart Parking System", des: "Technologies Used: C#, .NET, MySQL", src: parking, link: "https://github.com/GLRandula/Smart_Parking_Management_Platform" },
-  { title: "REST API Deployment EC2", des: "Technologies Used: Node.js, MongoDB Host in AWS, CI/CD Pipeline using GitHub Actions", src: crud, link: "https://github.com/GLRandula/nodejs-rest-api-EC2" },
+  { title: "DeepSeek - Clone", des: "Technologies Used: Next.js, MongoDB Atlas, Hosted on Vercel, DeepSeek API to generate responses.", src: deepseek, link: "https://github.com/GLRandula/deepseek-clone" },
   { title: "Finli - Financial App", des: "Figma UI Design for a modern Financial Literacy Mobile App.", src: finli, link: "https://www.figma.com/design/Axe5bz92xFVu2MBErY12Rr/Team-Vertex---InterfaceX?node-id=0-1&t=ba5onrQQWYnCgoNy-1" },
   { title: "Realtime Chat App", des: "Technologies Used: Next.js-vite, Tailwind, Firebase.", src: chatapp, link: "https://github.com/GLRandula/chatapp" },
+  { title: "REST API Deployment EC2", des: "Technologies Used: Node.js, MongoDB Host in AWS, CI/CD Pipeline using GitHub Actions", src: crud, link: "https://github.com/GLRandula/nodejs-rest-api-EC2" },
   { title: "Portfolio Website - Client Project", des: "Technologies Used: WordPress", src: portfolio, link: "https://pethumjeewantha.com" },
   { title: "News Website - Client Project", des: "Technologies Used: WordPress", src: news, link: "#" },
   // { title: "CRUD API - Backend", des: "Technologies Used: SpringBoot, MongoDB", src: springboot, link: "https://github.com/GLRandula/SpringBoot-MongoDB-CRUD-API" },
