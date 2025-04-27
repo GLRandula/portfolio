@@ -47,7 +47,7 @@ const LeftBanner = () => {
       <div className="w-48">
         <a
           href="/cv.pdf"
-          download="LakithRandula.pdf"
+          download="Lakith-Randula-SE-Intern.pdf"
           className="w-full h-12 mt-10 bg-[#071929] border-2 border-white rounded-lg text-base text-white tracking-wider uppercase hover:text-designColor duration-300 hover:border-2 hover:border-designColor border-transparent flex items-center justify-center"
         >
           Download CV
