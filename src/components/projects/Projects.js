@@ -20,9 +20,9 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 const projectsData = [
   { title: "SappierLanka Tours - Client Project", des: "Technologies Used: React.js, Tailwind", src: sappierlanka, link: "https://github.com/GLRandula/SappierLanka_Tours" },
   { title: "VIEWMO (Research Platform)", des: "Technologies Used: Next.js, Node.js, FastAPI, Langchain, Redis", src: viewmo, link: "https://github.com/Tharindu209-playground/intellihack-final-frontend" },
-  { title: "Quiz Cast", des: "Technologies Used: Next.js, Flowbite, Django, Fast API", src: QuizCast, link: "https://github.com/GLRandula/Django-REST-API" },
+  { title: "Quiz Cast", des: "Technologies Used: Next.js, Flowbite, Fast API, Supabase", src: QuizCast, link: "https://github.com/GLRandula/Django-REST-API" },
   { title: "E-Commerce Platform", des: "Technologies Used: Next.js, Sanity, Stripe, Firebase", src: ecommerce, link: "https://github.com/GLRandula/ecommerce-app" },
-  { title: "Mental Health ChatBot", des: "Group Project, Technologies Used: Next.js, Tailwind, Django, LLM, VectorDB", src: mentalChatbot, link: "https://github.com/GLRandula/mental-health-chatbot-frontend" },
+  { title: "Mental Health ChatBot", des: "Group Project, Technologies Used: Next.js, Tailwind, FastAPI, LLM, VectorDB", src: mentalChatbot, link: "https://github.com/GLRandula/mental-health-chatbot-frontend" },
   { title: "Smart Parking System", des: "Technologies Used: C#, .NET, MySQL", src: parking, link: "https://github.com/GLRandula/Smart_Parking_Management_Platform" },
   { title: "DeepSeek - Clone", des: "Technologies Used: Next.js, MongoDB Atlas, Hosted on Vercel, DeepSeek API to generate responses.", src: deepseek, link: "https://github.com/GLRandula/deepseek-clone" },
   { title: "Finli - Financial App", des: "Figma UI Design for a modern Financial Literacy Mobile App.", src: finli, link: "https://www.figma.com/design/Axe5bz92xFVu2MBErY12Rr/Team-Vertex---InterfaceX?node-id=0-1&t=ba5onrQQWYnCgoNy-1" },
