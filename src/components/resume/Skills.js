@@ -1,4 +1,4 @@
-import { FaTools, FaCodeBranch, FaNodeJs, FaReact, FaPhp, FaGithub, FaLaravel, FaDatabase, FaJava, FaPython, FaGitAlt, FaDocker, FaAws, FaFigma } from "react-icons/fa";
+import { FaTools, FaCodeBranch, FaNodeJs, FaReact, FaPhp, FaGithub, FaLaravel, FaDatabase, FaJava, FaPython, FaGitAlt, FaAngular, FaDocker, FaAws, FaFigma } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { DiVisualstudio } from "react-icons/di";
 import { SiAnaconda, SiNextdotjs, SiTypescript, SiExpress, SiDotnet, SiSpringboot, SiRedux, SiDjango, SiBootstrap, SiComposer, SiMongodb, SiPostgresql, SiVorondesign, SiMysql, SiTailwindcss, SiWordpress, SiHtml5, SiCss3, SiCsharp, SiC, SiFastapi, SiRedis, SiVisualstudiocode, SiIntellijidea, SiPycharm, SiJupyter, SiGooglecolab, SiPostman, SiXampp, SiCanva } from "react-icons/si";
@@ -11,6 +11,7 @@ const techStack = [
   { title: "Nextjs", icon: <SiNextdotjs /> },
   { title: "Nodejs", icon: <FaNodeJs /> },
   { title: "Typescript", icon: <SiTypescript /> },
+  { title: "Angular", icon: <FaAngular /> },
   { title: "Expressjs", icon: <SiExpress /> },
   { title: "UI/UX", icon: <SiVorondesign  /> },
   { title: "PHP", icon: <FaPhp /> },
