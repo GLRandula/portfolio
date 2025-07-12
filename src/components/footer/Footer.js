@@ -66,9 +66,9 @@ const Footer = () => {
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              <p className="flex gap-4">
+              {/* <p className="flex gap-4">
                 Phone: <span className="">+94 76 745 4067</span>
-              </p>
+              </p> */}
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%]"></span>
             </span>
           </li>
