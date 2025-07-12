@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b6d8bcd6.css",
-    "main.js": "/static/js/main.17f696eb.js",
+    "main.js": "/static/js/main.4c310f7f.js",
     "static/media/testimonialTwo.png": "/static/media/testimonialTwo.dc9e768f27bdbefb8b5b.png",
     "static/media/SappierLanka.png": "/static/media/SappierLanka.c06417b8ddef73ca95d7.png",
     "static/media/finliApp.png": "/static/media/finliApp.e46791c14144c9894285.png",
@@ -27,10 +27,10 @@
     "static/media/quote.png": "/static/media/quote.7fccdc71849777cf8e4a.png",
     "index.html": "/index.html",
     "main.b6d8bcd6.css.map": "/static/css/main.b6d8bcd6.css.map",
-    "main.17f696eb.js.map": "/static/js/main.17f696eb.js.map"
+    "main.4c310f7f.js.map": "/static/js/main.4c310f7f.js.map"
   },
   "entrypoints": [
     "static/css/main.b6d8bcd6.css",
-    "static/js/main.17f696eb.js"
+    "static/js/main.4c310f7f.js"
   ]
 }

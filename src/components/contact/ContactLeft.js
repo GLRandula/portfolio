@@ -18,9 +18,9 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 tracking-wide">
         Let's build seamless, scalable, and innovative web solutions together. Contact me for collaboration!
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        {/* <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+94 76 745 4067</span>
-        </p>
+        </p> */}
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:{" "}
           <span className="text-lightText">lakithrandula6@gmail.com</span>
